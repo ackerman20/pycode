@@ -29,7 +29,7 @@ elif dic == '4':
         a = stream.resolution
         if a not in list and a != None:
             list.append(a)
-    print(list)
+    print('該應片提供以下畫質 : {}'.format(list))
     p = str(input('請輸入要的影片畫質(輸入數字即可) : '))
     print('download...')
     p = p + 'p'
